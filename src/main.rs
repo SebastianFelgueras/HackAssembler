@@ -58,9 +58,10 @@ const OPERATIONS:[(&str,&str);29] = [
     ("D|A","0010101"),
     ("D|M","1010101")
 ];
-const SIMBOLOS_PRECARGADOS: [(&'static str,i16);22] = [
+const SIMBOLOS_PRECARGADOS: [(&'static str,i16);23] = [
         ("SP",0),
         ("LCL",1),
+        ("ARG",2),
         ("THIS",3),
         ("THAT",4),
         ("SCREEN",16384),
